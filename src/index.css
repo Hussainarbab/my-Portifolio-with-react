@@ -1,0 +1,19 @@
+
+
+body {
+
+
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
