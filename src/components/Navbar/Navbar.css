@@ -18,4 +18,11 @@
     padding: 20px 40px;
     border-radius: 50px;
     background: linear-gradient(267deg,#DA7C25 0.36%, #B923E1 );
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.nav-connect:hover{
+    transform: scale(1.05);
 }
