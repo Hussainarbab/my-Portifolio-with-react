@@ -10,6 +10,7 @@
     font-size: 80px;
     font-weight: 600;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .about-sections{
@@ -48,6 +49,11 @@
     align-items: center;
     transition: 0.3s;
 }
+.about-left img{
+    width: 360px;
+    height: 430px;
+    border-radius: 10px;
+}
 
 .about-skill p{
     min-width: 150px;
@@ -72,6 +78,7 @@
     width: 100%;
     justify-content: space-around;
     margin-bottom: 80px;
+    margin-top: 80px;
 }
 
 .about-achievement{
