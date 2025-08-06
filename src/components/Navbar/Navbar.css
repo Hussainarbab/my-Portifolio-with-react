@@ -12,12 +12,17 @@
     gap: 60px;
     font-size: 20px;
 }
+.nav-menu li:hover{
+       
+border-bottom: 3px solid red;
+
+}
 
 
 .nav-connect{
     padding: 20px 40px;
     border-radius: 50px;
-    background: linear-gradient(267deg,#DA7C25 0.36%, #B923E1 );
+    background: linear-gradient(267deg,red -5.59%, #c205f7 100%);
     font-size: 22px;
     cursor: pointer;
     transition: 0.5s;
