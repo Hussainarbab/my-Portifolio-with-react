@@ -31,3 +31,8 @@ border-bottom: 3px solid red;
 .nav-connect:hover{
     transform: scale(1.05);
 }
+
+.anchor-link{
+    color: white;
+text-decoration: none;
+}

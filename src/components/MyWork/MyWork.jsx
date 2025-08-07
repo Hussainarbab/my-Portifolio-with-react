@@ -18,7 +18,7 @@ function MyWork() {
   ];
 
   return (
-    <div className='mywork'>
+    <div id='work' className='mywork'>
       <h1>My Latest Work</h1>
       <div className="mywork-container">
         {Work_Data.map((work, index) => (
