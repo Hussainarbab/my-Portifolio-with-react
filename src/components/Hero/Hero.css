@@ -37,6 +37,8 @@
 }
 
 
+
+
 .hero-action{
     display: flex;
     align-items: center;
@@ -70,4 +72,52 @@ border-radius: 50px;
 
 .hero-resume:hover{
     border-color: #B923E1;
+}
+
+
+@media(max-width:1139px) {
+    .hero h1{
+        width: 90%;
+        font-size: 60px;
+    }
+    .hero p{
+        width: 70%;
+        font-size: 20px;
+    }
+    
+
+}
+
+@media(max-width:856px) {
+    .hero h1{
+        width: 80%;
+        font-size: 45px;
+    }
+    .hero p{
+        width: 70%;
+        font-size: 19px;
+    }
+}
+@media(max-width:775px) {
+    .hero img{
+        margin-bottom: 120px;
+        width: 30%;
+    }
+    .hero h1{
+        width: 90%;
+        font-size: 40px;
+
+    }
+    .hero p{
+        width: 70%;
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .hero-action{
+        gap: 16px;
+        font-size: 18px;
+        margin-bottom: 50px;
+    }
+    
 }

@@ -17,7 +17,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 20px;
-    padding: 50px 50px;
+    padding: 35px 60px;
     border-radius: 10px;
     border: 2px solid white;
     transition: 0.4s;
@@ -55,4 +55,80 @@ background-clip: text;
     background-image :linear-gradient(45deg, #3f0028, #582300);
     transform: 1.05;
     transition: 0.4s;
+}
+
+
+
+/* responsive */
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .services {
+    margin: 60px 100px;
+    gap: 60px;
+  }
+
+  .services-title h1 {
+    font-size: 60px;
+  }
+
+  .services-container {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+
+  .services-format {
+    padding: 30px 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .services {
+    margin: 50px 50px;
+    gap: 50px;
+  }
+
+  .services-title h1 {
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .services-container {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .services-format h2 {
+    font-size: 28px;
+  }
+
+  .services-format h3 {
+    font-size: 22px;
+  }
+
+  .services-format {
+    padding: 25px 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .services {
+    margin: 40px 20px;
+    gap: 40px;
+  }
+
+  .services-title h1 {
+    font-size: 36px;
+  }
+
+  .services-format h2 {
+    font-size: 24px;
+  }
+
+  .services-format h3 {
+    font-size: 18px;
+  }
+
+  .services-format {
+    padding: 20px;
+  }
 }

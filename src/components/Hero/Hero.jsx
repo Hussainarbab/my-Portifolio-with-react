@@ -19,7 +19,7 @@ function Hero() {
       </p>
 
       <div className="hero-action">
-        <AnchorLink className='anchor-link' offset={50} href='#contact'>
+        <div><AnchorLink className='anchor-link' offset={50} href='#contact'>
           <div
             className={`nav-connect ${menu === "contact" ? "active" : ""}`}
             onClick={() => setMenu("contact")}
@@ -27,6 +27,7 @@ function Hero() {
             Connect With Me
           </div>
         </AnchorLink>
+        </div>
 
         <div className="hero-resume">My resume</div>
       </div>
