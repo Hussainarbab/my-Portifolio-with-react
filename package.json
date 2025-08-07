@@ -3,7 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Hussainarbab.github.io/my-portfolio",
+ "homepage": "https://Hussainarbab.github.io/my-Portifolio-with-react",
+
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
