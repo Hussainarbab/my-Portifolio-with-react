@@ -71,6 +71,7 @@ function Contact() {
           <label>Your Name</label>
           <input type="text" name='name' placeholder='Enter Your Name' required />
 
+
           <label>Your Email</label>
           <input type="email" name='email' placeholder='Enter Your Email' required />
 
